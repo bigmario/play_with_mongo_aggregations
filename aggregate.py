@@ -4,11 +4,10 @@ from pprint import pprint
 from pymongo import MongoClient
 
 # client = MongoClient(
-#     "mongodb+srv://mario:14567498@hotspot.s19tf.mongodb.net/hotspot?retryWrites=true&w=majority"
-# )
+#     
 
 client = MongoClient(
-    "mongodb+srv://admin:admin@hotspot.tnhog.mongodb.net/hotspot?retryWrites=true&w=majority"
+    
 )
 
 db = client.hotspot
